@@ -8,3 +8,14 @@ header {
     font-family: Arial, sans-serif;
     font-weight: 300;
 }
+
+.page-title {
+    text-align: center;
+    font-weight: 100;
+}
+
+.page-description {
+    border: 1px solid yellow;
+    text-align: center;
+    padding: 10px;
+  }
