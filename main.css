@@ -1,4 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
     font-weight: 300;
+    background-color: grey;
   }
+
+header {
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+}
