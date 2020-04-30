@@ -1,17 +1,19 @@
-body {
-    font-family: 'Arial', sans-serif;
-    font-weight: 300;
-    background-color: grey;
-  }
-
 header {
-    font-family: Arial, sans-serif;
     font-weight: 300;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: #36393e;
+  }
+
 .page-title {
+    font-family: 'Agency FB';
     text-align: center;
-    font-weight: 100;
+    color: white;
+    background-color: #003d7d;
+    border: 1px solid white;
 }
 
 .page-description {
