@@ -1,4 +1,4 @@
-header {
+ header {
     font-weight: 300;
 }
 
@@ -8,19 +8,46 @@ body {
     background-color: #36393e;
   }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 .page-title {
     font-family: 'Agency FB';
     text-align: center;
     color: white;
     background-color: #003d7d;
     border: 3px solid white;
+    padding: 12px 12px;
 }
 
 .page-description {
-    border: 1px solid yellow;
+    border: 1px solid green;
     text-align: center;
-    padding: 10px;
-  }
+    padding: 100px 10px;
+}
 
 .button {
   background-color: blue;
