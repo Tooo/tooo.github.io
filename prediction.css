@@ -1,52 +1,56 @@
- header {
-    font-weight: 300;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
+    color: white;
     background-color: #36393e;
   }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.page-title {
+  font-family: 'Agency FB';
+  text-align: center;
+  color: white;
+  background-color: #003d7d;
+  border: 3px solid white;
+  padding: 12px 12px;
+}
+
+#navbar {
   overflow: hidden;
   background-color: #333;
-  position: relative;
-  top: 0;
 }
 
-li {
+#navbar a {
   float: left;
-}
-
-li a {
   display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
-  padding: 12px 12px;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-li a:hover {
-  background-color: #111;
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-.page-title {
-    font-family: 'Agency FB';
-    text-align: center;
-    color: white;
-    background-color: #003d7d;
-    border: 3px solid white;
-    padding: 12px 12px;
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
-.page-description {
-    border: 1px solid green;
-    text-align: center;
-    padding: 100px 10px;
+.content {
+  padding: 100px 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 .button {
